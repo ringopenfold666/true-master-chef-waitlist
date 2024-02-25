@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>True MasterChef AI Waitlist</title>
+  <style>
+    body { 
+      font-family: Arial, sans-serif;
+      background-color: #333; /* A dark background */
+      color: white;
+      margin: 0;
+      padding: 20px;
+      display: flex; /* Center the content */
+      flex-direction: column;
+      align-items: center;
+    }
+    h1 { margin-bottom:  10px;}
+    form { width: 300px; } 
+    input[type="email"] {
+      width: 100%; 
+      padding: 10px; 
+      margin-bottom: 10px;
+    }
+    button {
+      background-color: #007bff; /* Example button color */
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Join the Waitlist for True MasterChef AI</h1>
+  <p>Be the first to experience our revolutionary culinary AI.</p>
+  <form onsubmit="alert('Email submitted! Stay tuned for updates.')">
+    <input type="email" placeholder="Your Email" required>
+    <button type="submit">Join Waitlist</button>
+  </form>
+</body>
+</html>
